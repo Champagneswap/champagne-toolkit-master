@@ -6,7 +6,7 @@
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/champagneswap/champagne-toolkit/tree/master/packages/eslint-config-pancake",
+  "repository": "https://github.com/champagneswap/champagne-toolkit/tree/master/packages/eslint-config-champagne",
   "license": "MIT",
   "author": "RabbitDoge",
   "private": false,
