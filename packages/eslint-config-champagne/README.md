@@ -1,4 +1,4 @@
-# eslint-config-pancake
+# eslint-config-champagne
 
 Pancake Eslint config with:
 
@@ -9,7 +9,7 @@ Pancake Eslint config with:
 ## Usage
 
 ```
-npx install-peerdeps --dev @champagneswap/eslint-config-pancake
+npx install-peerdeps --dev @champagneswap/eslint-config-champagne
 ```
 
-Add `"extends": "@champagneswap/eslint-config-pancake"` to your eslint config file.
+Add `"extends": "@champagneswap/eslint-config-champagne"` to your eslint config file.
