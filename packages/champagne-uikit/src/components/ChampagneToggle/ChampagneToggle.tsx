@@ -6,10 +6,10 @@ const ChampagneToggle: React.FC<ChampagneToggleProps> = ({ checked, scale = scal
   <ChampagneStack scale={scale}>
     <ChampagneInput id={props.id || "champagne-toggle"} scale={scale} type="checkbox" checked={checked} {...props} />
     <ChampagneLabel scale={scale} checked={checked} htmlFor={props.id || "champagne-toggle"}>
-      <div className="pancakes">
-        <div className="pancake" />
-        <div className="pancake" />
-        <div className="pancake" />
+      <div className="champagnes">
+        <div className="champagne" />
+        <div className="champagne" />
+        <div className="champagne" />
         <div className="butter" />
       </div>
     </ChampagneLabel>
