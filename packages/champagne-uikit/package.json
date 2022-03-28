@@ -1,6 +1,6 @@
 {
   "name": "@champagneswap/uikit",
-  "version": "0.63.5",
+  "version": "0.64.2",
   "description": "Set of UI components for Champagne projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",

@@ -5,7 +5,9 @@ import ChampagneToggle from "../../components/ChampagneToggle/ChampagneToggle";
 const handleChange = jest.fn();
 
 it("renders correctly", () => {
-  const { asFragment } = renderWithTheme(<ChampagneToggle checked onChange={handleChange} scale="md" />);
+  const { asFragment } = renderWithTheme(
+    <ChampagneToggle checked onChange={handleChange} scale="md" />
+  );
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       .c0 {
@@ -201,7 +203,9 @@ it("renders correctly", () => {
 });
 
 it("renders correctly scale sm", () => {
-  const { asFragment } = renderWithTheme(<ChampagneToggle checked onChange={handleChange} scale="sm" />);
+  const { asFragment } = renderWithTheme(
+    <ChampagneToggle checked onChange={handleChange} scale="sm" />
+  );
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       .c0 {

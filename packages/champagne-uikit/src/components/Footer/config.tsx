@@ -21,8 +21,6 @@ export const footerLinks: FooterLinkType[] = [
         label: "CHAM",
         href: "https://docs.champagneswap.com/tokenomics/cham",
       },
-     
-      
     ],
   },
   {
@@ -53,7 +51,6 @@ export const footerLinks: FooterLinkType[] = [
         label: "Documentation",
         href: "https://docs.champagneswap.com",
       },
-      
     ],
   },
 ];
@@ -74,7 +71,7 @@ export const socials = [
       },
       {
         label: "Bahasa Indonesia",
-        href: "https://t.me/PancakeSwapIndonesia",
+        href: "https://t.me/champagneswap",
       },
       {
         label: "中文",
@@ -82,73 +79,73 @@ export const socials = [
       },
       {
         label: "Tiếng Việt",
-        href: "https://t.me/PancakeSwapVN",
+        href: "https://t.me/champagneswap",
       },
       {
         label: "Italiano",
-        href: "https://t.me/pancakeswap_ita",
+        href: "https://t.me/champagneswap",
       },
       {
         label: "русский",
-        href: "https://t.me/pancakeswap_ru",
+        href: "https://t.me/champagneswap",
       },
       {
         label: "Türkiye",
-        href: "https://t.me/pancakeswapturkiye",
+        href: "https://t.me/champagneswap",
       },
       {
         label: "Português",
-        href: "https://t.me/PancakeSwapPortuguese",
+        href: "https://t.me/champagneswap",
       },
       {
         label: "Español",
-        href: "https://t.me/PancakeswapEs",
+        href: "https://t.me/champagneswap",
       },
       {
         label: "日本語",
-        href: "https://t.me/pancakeswapjp",
+        href: "https://t.me/champagneswap",
       },
       {
         label: "Français",
-        href: "https://t.me/pancakeswapfr",
+        href: "https://t.me/champagneswap",
       },
       {
         label: "Datch",
-        href: "https://t.me/PancakeSwap_DE",
+        href: "https://t.me/champagneswap",
       },
       {
         label: "Filipino",
-        href: "https://t.me/Pancakeswap_Ph",
+        href: "https://t.me/champagneswap",
       },
       {
         label: "ქართული ენა",
-        href: "https://t.me/PancakeSwapGeorgia",
+        href: "https://t.me/champagneswap",
       },
       {
         label: "Announcements",
-        href: "https://t.me/PancakeSwapAnn",
+        href: "https://t.me/champagneswap",
       },
     ],
   },
   {
     label: "Reddit",
     icon: "Reddit",
-    href: "https://reddit.com/r/pancakeswap",
+    href: "https://reddit.com/r/champagneswap",
   },
   {
     label: "Instagram",
     icon: "Instagram",
-    href: "https://instagram.com/pancakeswap_official",
+    href: "https://instagram.com/champagneswap",
   },
   {
     label: "Github",
     icon: "Github",
-    href: "https://github.com/pancakeswap/",
+    href: "https://github.com/champagneswap/",
   },
   {
     label: "Discord",
     icon: "Discord",
-    href: "https://discord.gg/pancakeswap",
+    href: "https://discord.gg/champagneswap",
   },
 ];
 

@@ -1,11 +1,29 @@
 import React from "react";
-import { ChampagneStack, ChampagneInput, ChampagneLabel } from "./StyledChampagneToggle";
+import {
+  ChampagneStack,
+  ChampagneInput,
+  ChampagneLabel,
+} from "./StyledChampagneToggle";
 import { ChampagneToggleProps, scales } from "./types";
 
-const ChampagneToggle: React.FC<ChampagneToggleProps> = ({ checked, scale = scales.LG, ...props }) => (
+const ChampagneToggle: React.FC<ChampagneToggleProps> = ({
+  checked,
+  scale = scales.LG,
+  ...props
+}) => (
   <ChampagneStack scale={scale}>
-    <ChampagneInput id={props.id || "champagne-toggle"} scale={scale} type="checkbox" checked={checked} {...props} />
-    <ChampagneLabel scale={scale} checked={checked} htmlFor={props.id || "champagne-toggle"}>
+    <ChampagneInput
+      id={props.id || "champagne-toggle"}
+      scale={scale}
+      type="checkbox"
+      checked={checked}
+      {...props}
+    />
+    <ChampagneLabel
+      scale={scale}
+      checked={checked}
+      htmlFor={props.id || "champagne-toggle"}
+    >
       <div className="champagnes">
         <div className="champagne" />
         <div className="champagne" />

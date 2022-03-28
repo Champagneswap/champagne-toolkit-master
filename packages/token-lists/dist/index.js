@@ -28,10 +28,10 @@ var tokens$3 = [
 	{
 		name: "ChampagneSwap Token",
 		symbol: "CHAM",
-		address: "0xde5863dE281Df4e4493963855887BA9951dE4Fe3",
+		address: "0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A",
 		chainId: 56,
 		decimals: 18,
-		logoURI: "https://tokens.pancakeswap.finance/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+		logoURI: "https://tokens.champagneswap.com/images/0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A.png"
 	},
 	{
 		name: "PancakeSwap Token",
@@ -1101,10 +1101,10 @@ var srcDefault = [
 	{
 		name: "Champagne Token",
 		symbol: "CHAM",
-		address: "0xde5863dE281Df4e4493963855887BA9951dE4Fe3",
+		address: "0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A",
 		chainId: 56,
 		decimals: 18,
-		logoURI: "https://tokens.pancakeswap.finance/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+		logoURI: "https://tokens.champagneswap.com/images/0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A.png"
 	},
 	{
 		name: "PancakeSwap Token",
@@ -1224,10 +1224,10 @@ var srcExtended = [
 	{
 		name: "Champagne Token",
 		symbol: "CHAM",
-		address: "0xde5863dE281Df4e4493963855887BA9951dE4Fe3",
+		address: "0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A",
 		chainId: 56,
 		decimals: 18,
-		logoURI: "https://tokens.pancakeswap.finance/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+		logoURI: "https://tokens.champagneswap.com/images/0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A.png"
 	},
 	{
 		name: "PancakeSwap Token",
@@ -6879,7 +6879,7 @@ var logoFiles = fs.readdirSync(pathToImages);
 var blacklist = [
     // List of default tokens to exclude
     "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-    "0xde5863dE281Df4e4493963855887BA9951dE4Fe3",
+    "0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A",
     "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
     "0xe9e7cea3dedca5984780bafc599bd69add087d56",
     "0x55d398326f99059fF775485246999027B3197955",

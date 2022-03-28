@@ -46,7 +46,7 @@ const Spinner: React.FC<SpinnerProps> = ({ size = 128 }) => {
   return (
     <Container>
       <RotatingChampagneIcon width={`${size * 0.5}px`} />
-      <FloatingChamIcon width={`${size}px`} />
+    
     </Container>
   );
 };

@@ -14,10 +14,13 @@ export interface DropdownMenuProps extends BoxProps {
    */
   showItemsOnMobile?: boolean;
   index?: number;
-  setMenuOpenByIndex?: React.Dispatch<React.SetStateAction<Record<number, boolean>>>;
+  setMenuOpenByIndex?: React.Dispatch<
+    React.SetStateAction<Record<number, boolean>>
+  >;
 }
 
-export interface StyledDropdownMenuItemProps extends React.ComponentPropsWithoutRef<"button"> {
+export interface StyledDropdownMenuItemProps
+  extends React.ComponentPropsWithoutRef<"button"> {
   disabled?: boolean;
   isActive?: boolean;
 }

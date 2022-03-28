@@ -94,7 +94,12 @@ const Icon: React.FC<SvgProps> = (props) => {
       </g>
       <defs>
         <clipPath id={id}>
-          <rect width="48" height="48" fill="white" transform="matrix(-1 0 0 1 48 0)" />
+          <rect
+            width="48"
+            height="48"
+            fill="white"
+            transform="matrix(-1 0 0 1 48 0)"
+          />
         </clipPath>
       </defs>
     </Svg>

@@ -1,5 +1,11 @@
 import styled from "styled-components";
-import { scales, ChampagneToggleProps, HandleProps, InputProps, ScaleKeys } from "./types";
+import {
+  scales,
+  ChampagneToggleProps,
+  HandleProps,
+  InputProps,
+  ScaleKeys,
+} from "./types";
 
 const scaleKeyValues = {
   sm: {
@@ -89,12 +95,14 @@ export const ChampagneStack = styled.div<HandleProps>`
     transition: 0.4s ease;
     top: 2px;
     left: 4px;
-    box-shadow: 0 ${getScale("champagneThickness")} 0 ${getScale("champagneThickness")} #fbbe7c;
+    box-shadow: 0 ${getScale("champagneThickness")} 0
+      ${getScale("champagneThickness")} #fbbe7c;
   }
 
   .champagne:nth-child(1) {
     background: ${({ theme }) => theme.champagneToggle.handleBackground};
-    box-shadow: 0 ${getScale("champagneThickness")} 0 ${getScale("champagneThickness")}
+    box-shadow: 0 ${getScale("champagneThickness")} 0
+      ${getScale("champagneThickness")}
       ${({ theme }) => theme.champagneToggle.handleShadow};
   }
 
@@ -139,7 +147,8 @@ export const ChampagneStack = styled.div<HandleProps>`
     left: ${getScale("butterLeft")};
     position: absolute;
     border-radius: ${getScale("butterRadius")};
-    box-shadow: 0 ${getScale("butterThickness")} 0 ${getScale("butterThickness")} #d67823;
+    box-shadow: 0 ${getScale("butterThickness")} 0
+      ${getScale("butterThickness")} #d67823;
     transform: scale(0);
     transition: 0.2s ease;
   }
@@ -163,7 +172,8 @@ export const ChampagneInput = styled.input<InputProps>`
 
   &:checked + label .champagne:nth-child(1) {
     background: #e27c31;
-    box-shadow: 0 ${getScale("champagneThickness")} 0 ${getScale("champagneThickness")} #fbbe7c;
+    box-shadow: 0 ${getScale("champagneThickness")} 0
+      ${getScale("champagneThickness")} #fbbe7c;
     transition-delay: 0.2s;
   }
 
@@ -186,7 +196,8 @@ export const ChampagneInput = styled.input<InputProps>`
 export const ChampagneLabel = styled.label<ChampagneToggleProps>`
   width: ${getScale("toggleWidth")};
   height: ${getScale("toggleHeight")};
-  background: ${({ theme, checked }) => theme.colors[checked ? "success" : "input"]};
+  background: ${({ theme, checked }) =>
+    theme.colors[checked ? "success" : "input"]};
   box-shadow: ${({ theme }) => theme.shadows.inset};
   display: inline-block;
   border-radius: 50px;

@@ -7,7 +7,7 @@ import { TooltipTheme } from "../components/Tooltip/types";
 import { NavThemeType } from "../widgets/Menu/theme";
 import { ModalTheme } from "../widgets/Modal/types";
 import { Breakpoints, Colors, MediaQueries, Radii, Shadows, Spacing, ZIndices } from "./types";
-export interface PancakeTheme {
+export interface ChampagneTheme {
     siteWidth: number;
     isDark: boolean;
     alert: AlertTheme;
@@ -15,7 +15,7 @@ export interface PancakeTheme {
     card: CardTheme;
     nav: NavThemeType;
     modal: ModalTheme;
-    pancakeToggle: ChampagneToggleTheme;
+    champagneToggle: ChampagneToggleTheme;
     radio: RadioTheme;
     toggle: ToggleTheme;
     tooltip: TooltipTheme;

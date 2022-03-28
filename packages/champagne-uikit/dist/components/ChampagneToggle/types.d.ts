@@ -20,13 +20,13 @@ export interface InputProps {
     scale: Scales;
 }
 export declare const scaleKeys: {
-    readonly pancakeSize: "pancakeSize";
+    readonly champangeSize: "champagneSize";
     readonly travelDistance: "travelDistance";
     readonly toggleHeight: "toggleHeight";
     readonly toggleWidth: "toggleWidth";
-    readonly pancakeThickness: "pancakeThickness";
-    readonly pancakeTwoOffset: "pancakeTwoOffset";
-    readonly pancakeThreeOffset: "pancakeThreeOffset";
+    readonly champagneThickness: "champagneThickness";
+    readonly champagneTwoOffset: "champagneTwoOffset";
+    readonly champagneThreeOffset: "champagneThreeOffset";
     readonly butterTop: "butterTop";
     readonly butterLeft: "butterLeft";
     readonly butterWidth: "butterWidth";

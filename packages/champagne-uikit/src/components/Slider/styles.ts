@@ -1,9 +1,9 @@
 import { InputHTMLAttributes } from "react";
 import styled from "styled-components";
 import Text from "../Text/Text";
-import bunnyHeadMain from "./svg/bunnyhead-main.svg";
-import bunnyHeadMax from "./svg/bunnyhead-max.svg";
-import bunnyButt from "./svg/bunnybutt.svg";
+import bunnyHeadMain from "./svg/ice.svg";
+import bunnyHeadMax from "./svg/ice.svg";
+import bunnyButt from "./svg/ice.svg";
 
 interface SliderLabelProps {
   progress: string;
@@ -35,7 +35,11 @@ const getBaseThumbStyles = ({ isMax, disabled }: StyledInputProps) => `
   transition: 200ms transform;
 
   &:hover {
-    transform: ${disabled ? "scale(1) translate(-2px, -2px)" : "scale(1.1) translate(-3px, -3px)"};
+    transform: ${
+      disabled
+        ? "scale(1) translate(-2px, -2px)"
+        : "scale(1.1) translate(-3px, -3px)"
+    };
   }
 `;
 
@@ -88,7 +92,8 @@ export const StyledInput = styled.input<StyledInputProps>`
 `;
 
 export const BarBackground = styled.div<DisabledProp>`
-  background-color: ${({ theme, disabled }) => theme.colors[disabled ? "textDisabled" : "inputSecondary"]};
+  background-color: ${({ theme, disabled }) =>
+    theme.colors[disabled ? "textDisabled" : "inputSecondary"]};
   height: 2px;
   position: absolute;
   top: 18px;

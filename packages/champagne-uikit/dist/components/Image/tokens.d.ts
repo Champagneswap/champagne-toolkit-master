@@ -1,5 +1,5 @@
 /**
- * @see https://github.com/champagneswap/champagne-frontend/blob/develop/src/config/constants/tokens.ts
+ * @see https://github.com/champagne/champagne-frontend/blob/develop/src/config/constants/tokens.ts
  */
 declare const tokens: {
     cham: {

@@ -32,10 +32,13 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({
   const { styles, attributes } = usePopper(targetRef, tooltipRef, {
     strategy: isBottomNav ? "absolute" : "fixed",
     placement: isBottomNav ? "top" : "bottom-start",
-    modifiers: [{ name: "offset", options: { offset: [0, isBottomNav ? 6 : 0] } }],
+    modifiers: [
+      { name: "offset", options: { offset: [0, isBottomNav ? 6 : 0] } },
+    ],
   });
 
-  const isMenuShow = isOpen && ((isBottomNav && showItemsOnMobile) || !isBottomNav);
+  const isMenuShow =
+    isOpen && ((isBottomNav && showItemsOnMobile) || !isBottomNav);
 
   useEffect(() => {
     const showDropdownMenu = () => {
@@ -58,7 +61,10 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({
 
   useEffect(() => {
     if (setMenuOpenByIndex && index !== undefined) {
-      setMenuOpenByIndex((prevValue) => ({ ...prevValue, [index]: isMenuShow }));
+      setMenuOpenByIndex((prevValue) => ({
+        ...prevValue,
+        [index]: isMenuShow,
+      }));
     }
   }, [isMenuShow, setMenuOpenByIndex, index]);
 
@@ -90,59 +96,80 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({
         >
           {items
             .filter((item) => !item.isMobileOnly)
-            .map(({ type = DropdownMenuItemType.INTERNAL_LINK, label, href = "/", status, ...itemProps }, itemItem) => {
-              const MenuItemContent = (
-                <>
-                  {label}
-                  {status && (
-                    <LinkStatus color={status.color} fontSize="14px">
-                      {status.text}
-                    </LinkStatus>
-                  )}
-                </>
-              );
-              const isActive = href === activeItem;
-              return (
-                <StyledDropdownMenuItemContainer key={itemItem}>
-                  {type === DropdownMenuItemType.BUTTON && (
-                    <DropdownMenuItem $isActive={isActive} type="button" {...itemProps}>
-                      {MenuItemContent}
-                    </DropdownMenuItem>
-                  )}
-                  {type === DropdownMenuItemType.INTERNAL_LINK && (
-                    <DropdownMenuItem
-                      $isActive={isActive}
-                      as={linkComponent}
-                      href={href}
-                      onClick={() => {
-                        setIsOpen(false);
-                      }}
-                      {...itemProps}
-                    >
-                      {MenuItemContent}
-                    </DropdownMenuItem>
-                  )}
-                  {type === DropdownMenuItemType.EXTERNAL_LINK && (
-                    <DropdownMenuItem
-                      $isActive={isActive}
-                      as="a"
-                      href={href}
-                      target="_blank"
-                      onClick={() => {
-                        setIsOpen(false);
-                      }}
-                      {...itemProps}
-                    >
-                      <Flex alignItems="center" justifyContent="space-between" width="100%">
-                        {label}
-                        <IconComponent iconName="Logout" />
-                      </Flex>
-                    </DropdownMenuItem>
-                  )}
-                  {type === DropdownMenuItemType.DIVIDER && <DropdownMenuDivider />}
-                </StyledDropdownMenuItemContainer>
-              );
-            })}
+            .map(
+              (
+                {
+                  type = DropdownMenuItemType.INTERNAL_LINK,
+                  label,
+                  href = "/",
+                  status,
+                  ...itemProps
+                },
+                itemItem
+              ) => {
+                const MenuItemContent = (
+                  <>
+                    {label}
+                    {status && (
+                      <LinkStatus color={status.color} fontSize="14px">
+                        {status.text}
+                      </LinkStatus>
+                    )}
+                  </>
+                );
+                const isActive = href === activeItem;
+                return (
+                  <StyledDropdownMenuItemContainer key={itemItem}>
+                    {type === DropdownMenuItemType.BUTTON && (
+                      <DropdownMenuItem
+                        $isActive={isActive}
+                        type="button"
+                        {...itemProps}
+                      >
+                        {MenuItemContent}
+                      </DropdownMenuItem>
+                    )}
+                    {type === DropdownMenuItemType.INTERNAL_LINK && (
+                      <DropdownMenuItem
+                        $isActive={isActive}
+                        as={linkComponent}
+                        href={href}
+                        onClick={() => {
+                          setIsOpen(false);
+                        }}
+                        {...itemProps}
+                      >
+                        {MenuItemContent}
+                      </DropdownMenuItem>
+                    )}
+                    {type === DropdownMenuItemType.EXTERNAL_LINK && (
+                      <DropdownMenuItem
+                        $isActive={isActive}
+                        as="a"
+                        href={href}
+                        target="_blank"
+                        onClick={() => {
+                          setIsOpen(false);
+                        }}
+                        {...itemProps}
+                      >
+                        <Flex
+                          alignItems="center"
+                          justifyContent="space-between"
+                          width="100%"
+                        >
+                          {label}
+                          <IconComponent iconName="Logout" />
+                        </Flex>
+                      </DropdownMenuItem>
+                    )}
+                    {type === DropdownMenuItemType.DIVIDER && (
+                      <DropdownMenuDivider />
+                    )}
+                  </StyledDropdownMenuItemContainer>
+                );
+              }
+            )}
         </StyledDropdownMenu>
       )}
     </Box>
