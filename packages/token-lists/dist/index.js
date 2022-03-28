@@ -4570,10 +4570,10 @@ var tokens = [
 	{
 		name: "ChampagneSwap Token",
 		symbol: "CHAM",
-		address: "0xde5863dE281Df4e4493963855887BA9951dE4Fe3",
+		address: "0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A",
 		chainId: 56,
 		decimals: 18,
-		logoURI: "https://tokens.pancakeswap.finance/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+		logoURI: "https://tokens.champagneswap.com/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
 	},
 	{
 		name: "PancakeSwap Token",
