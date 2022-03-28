@@ -5,8 +5,8 @@ const tokens = {
   cham: {
     symbol: "CHAM",
     address: {
-      56: "0xde5863dE281Df4e4493963855887BA9951dE4Fe3",
-      97: "0xde5863dE281Df4e4493963855887BA9951dE4Fe3",
+      56: "0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A",
+      97: "0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A",
     },
     decimals: 18,
     projectLink: "https://champagneswap.com/",
