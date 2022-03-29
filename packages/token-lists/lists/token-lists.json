@@ -1,14 +1,14 @@
 {
-  "https://tokens.champagneswap.finance/champagneswap-default.json": {
+  "https://tokens.champagneswap.com/champagneswap-default.json": {
     "name": "ChampagneSwap Default",
     "homepage": "https://champagneswap.com"
   },
-  "https://tokens.champagneswap.finance/champagneswap-extended.json": {
+  "https://tokens.champagneswap.com/champagneswap-extended.json": {
     "name": "ChampagneSwap Extended",
     "homepage": "https://champagneswap.com"
     
   },
-  "https://tokens.champagneswap.finance/champagneswap-top-100.json": {
+  "https://tokens.champagneswap.com/champagneswap-top-100.json": {
     "name": "ChampagneSwap Top 100",
     "homepage": "https://champagneswap.com"
     
