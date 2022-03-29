@@ -2,21 +2,21 @@ import srcDefault from "./tokens/champagneswap-default.json";
 import srcExtended from "./tokens/champagneswap-extended.json";
 import srcTop100 from "./tokens/champagneswap-top-100.json";
 import srcTop15 from "./tokens/champagneswap-top-15.json";
-import defaultList from "../lists/champagneswap-default.json";
-import extendedtList from "../lists/champagneswap-extended.json";
+import defaulList from "../lists/champagneswap-default.json";
+import extendedList from "../lists/champagneswap-extended.json";
 import top15List from "../lists/champagneswap-top-15.json";
-import top100tList from "../lists/champagneswap-top-100.json";
+import top100List from "../lists/champagneswap-top-100.json";
 
 const lists = [
   {
     name: "champagneswap-default",
     src: srcDefault,
-    actual: defaultList,
+    actual: defaulList,
   },
   {
     name: "champagneswap-extended",
     src: srcExtended,
-    actual: extendedtList,
+    actual: extendedList,
   },
   {
     name: "champagneswap-top-15",
@@ -26,7 +26,7 @@ const lists = [
   {
     name: "champagneswap-top-100",
     src: srcTop100,
-    actual: top100tList,
+    actual: top100List,
   },
 ];
 

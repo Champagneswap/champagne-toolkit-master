@@ -82,7 +82,7 @@ expect.extend({
   toBeValidLogo(token) {
     // TW logos are always checksummed
     const hasTWLogo =
-      token.logoURI === `https://assets.trustwalletapp.com/blockchains/smartchain/assets/${token.address}/logo.png`;
+      token.logoURI === `https://tokens.champagneswap.com/images/${token.address}.png`;
     let hasLocalLogo = false;
     const refersToLocalLogo = token.logoURI === `https://tokens.champagneswap.com/images/${token.address}.png`;
     if (refersToLocalLogo) {
