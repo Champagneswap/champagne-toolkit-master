@@ -5,7 +5,7 @@ import { request, gql } from 'graphql-request';
 import slugify from 'slugify';
 
 var name$3 = "ChampagneSwap Default";
-var timestamp$3 = "2022-01-18T20:02:23.402Z";
+var timestamp$3 = "2022-03-18T20:02:23.402Z";
 var version$3 = {
 	major: 2,
 	minor: 16,
@@ -4573,7 +4573,7 @@ var tokens = [
 		address: "0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A",
 		chainId: 56,
 		decimals: 18,
-		logoURI: "https://tokens.champagneswap.com/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+		logoURI: "https://tokens.champagneswap.com/images/0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A.png"
 	},
 	{
 		name: "PancakeSwap Token",
