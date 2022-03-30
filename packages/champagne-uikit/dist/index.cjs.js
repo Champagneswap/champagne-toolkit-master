@@ -2358,7 +2358,7 @@ var templateObject_1$R, templateObject_2$s, templateObject_3$b, templateObject_4
 var PriceLink = styled__default['default'].a(templateObject_1$Q || (templateObject_1$Q = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var ChamPrice = function (_a) {
     var chamPriceUsd = _a.chamPriceUsd, _b = _a.color, color = _b === void 0 ? "textSubtle" : _b;
-    return chamPriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://champagneswap.com/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82", target: "_blank" },
+    return chamPriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://champagneswap.com/swap?outputCurrency=0x4957c1c073557BFf33C01A7cA1436D0d2409d439", target: "_blank" },
         React__default['default'].createElement(Icon$1h, { width: "24px", mr: "8px" }),
         React__default['default'].createElement(Text, { color: color, bold: true }, "$" + chamPriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }));
 };
