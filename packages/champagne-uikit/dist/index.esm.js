@@ -2906,7 +2906,7 @@ var ChampagneToggle = function (_a) {
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#1FC7D4",
+    primary: "#8425df",
     primaryBright: "#53DEE9",
     primaryDark: "#0098A1",
     secondary: "#7645D9",
@@ -2920,11 +2920,11 @@ var additionalColors = {
     silver: "#B2B2B2",
     bronze: "#E7974D",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", backgroundAlt: "#FFFFFF", backgroundAlt2: "rgba(255, 255, 255, 0.7)", cardBorder: "#E7E3EB", contrast: "#191326", dropdown: "#F6F6F6", dropdownDeep: "#EEEEEE", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#280D5F", textDisabled: "#BDC2C4", textSubtle: "#7A6EAA", disabled: "#E9EAEB", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#faf8fa", backgroundDisabled: "#E9EAEB", backgroundAlt: "#FFFFFF", backgroundAlt2: "rgba(255, 255, 255, 0.7)", cardBorder: "#E7E3EB", contrast: "#191326", dropdown: "#F6F6F6", dropdownDeep: "#EEEEEE", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#280D5F", textDisabled: "#BDC2C4", textSubtle: "#7A6EAA", disabled: "#E9EAEB", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E5FDFF 0%, #F3EFFF 100%)",
         inverseBubblegum: "linear-gradient(139.73deg, #F3EFFF 0%, #E5FDFF 100%)",
         cardHeader: "linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)",
-        blue: "linear-gradient(180deg, #A7E8F1 0%, #94E1F2 100%)",
+        blue: "linear-gradient(180deg, #8425df 0%, #c287fb 100%)",
         violet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
         gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
@@ -5021,7 +5021,7 @@ var MenuItem = function (_a) {
                 React__default.createElement(Flex, { order: [1, null, 2], mb: ["24px", null, "0"], justifyContent: "space-between", alignItems: "center" },
                     React__default.createElement(Box, { mr: "20px" },
                         React__default.createElement(ChamPrice$1, { chamPriceUsd: chamPriceUsd, color: darkColors.textSubtle })),
-                    React__default.createElement(Button, { as: "a", href: "https://champagneswap.com/swap?outputCurrency=0xde5863dE281Df4e4493963855887BA9951dE4Fe3", target: "_blank", scale: "sm", endIcon: React__default.createElement(Icon$29, { color: lightColors.backgroundAlt }) }, buyChamLabel))))));
+                    React__default.createElement(Button, { as: "a", href: "https://champagneswap.com/swap?outputCurrency=0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A", target: "_blank", scale: "sm", endIcon: React__default.createElement(Icon$29, { color: lightColors.backgroundAlt }) }, buyChamLabel))))));
 };
 
 var MenuItems = function (_a) {

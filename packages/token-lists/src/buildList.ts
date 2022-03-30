@@ -28,7 +28,7 @@ const lists = {
     name: "ChampagneSwap Default",
     keywords: ["champagneswap", "default"],
     logoURI:
-      "https://tokens.champagneswap.com/images/0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A.png",
+      "https://tokens.champagneswap.com/images/0x4957c1c073557BFf33C01A7cA1436D0d2409d439.png",
     sort: false,
     currentVersion: champagneswapDefaultVersion,
   },
@@ -37,7 +37,7 @@ const lists = {
     name: "ChampagneSwap Extended",
     keywords: ["champagneswap", "extended"],
     logoURI:
-      "https://tokens.champagneswap.com/images/0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A.png",
+      "https://tokens.champagneswap.com/images/0x4957c1c073557BFf33C01A7cA1436D0d2409d439.png",
     sort: true,
     currentVersion: champagneswapExtended,
   },
@@ -46,7 +46,7 @@ const lists = {
     name: "ChampagneSwap Top 100",
     keywords: ["champagneswap", "top 100"],
     logoURI:
-      "https://tokens.champagneswap.com/images/0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A.png",
+      "https://tokens.champagneswap.com/images/0x4957c1c073557BFf33C01A7cA1436D0d2409d439.png",
     sort: true,
     currentVersion: champagneswapTop100Version,
   },
@@ -55,7 +55,7 @@ const lists = {
     name: "ChampagneSwap Top 15",
     keywords: ["champagneswap", "top 15"],
     logoURI:
-      "https://tokens.champagneswap.com/images/0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A.png",
+      "https://tokens.champagneswap.com/images/0x4957c1c073557BFf33C01A7cA1436D0d2409d439.png",
     sort: true,
     currentVersion: champagneswapTop15Version,
   },
