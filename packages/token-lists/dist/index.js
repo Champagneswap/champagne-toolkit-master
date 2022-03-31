@@ -11,7 +11,7 @@ var version$3 = {
 	minor: 16,
 	patch: 3
 };
-var logoURI$3 = "https://tokens.champagneswap.com/images/0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A.png";
+var logoURI$3 = "https://tokens.champagneswap.com/images/0x4957c1c073557BFf33C01A7cA1436D0d2409d439.png";
 var keywords$3 = [
 	"champagneswap",
 	"default"
@@ -28,10 +28,10 @@ var tokens$3 = [
 	{
 		name: "ChampagneSwap Token",
 		symbol: "CHAM",
-		address: "0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A",
+		address: "0x4957c1c073557BFf33C01A7cA1436D0d2409d439",
 		chainId: 56,
 		decimals: 18,
-		logoURI: "https://tokens.champagneswap.com/images/0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A.png"
+		logoURI: "https://tokens.champagneswap.com/images/0x4957c1c073557BFf33C01A7cA1436D0d2409d439.png"
 	},
 	{
 		name: "PancakeSwap Token",
