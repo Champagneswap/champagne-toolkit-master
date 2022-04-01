@@ -154,7 +154,7 @@ var version$2 = {
 	minor: 17,
 	patch: 0
 };
-var logoURI$2 = "https://tokens.champagneswap.com/images/0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A.png";
+var logoURI$2 = "https://tokens.champagneswap.com/images/0x4957c1c073557BFf33C01A7cA1436D0d2409d439.png";
 var keywords$2 = [
 	"champagneswap",
 	"top 15"
@@ -289,7 +289,7 @@ var version$1 = {
 	minor: 16,
 	patch: 11
 };
-var logoURI$1 = "https://tokens.champagneswap.com/images/0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A.png";
+var logoURI$1 = "https://tokens.champagneswap.com/images/0x4957c1c073557BFf33C01A7cA1436D0d2409d439.png";
 var keywords$1 = [
 	"champagneswap",
 	"top 100"
@@ -1101,10 +1101,10 @@ var srcDefault = [
 	{
 		name: "Champagne Token",
 		symbol: "CHAM",
-		address: "0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A",
+		address: "0x4957c1c073557BFf33C01A7cA1436D0d2409d439",
 		chainId: 56,
 		decimals: 18,
-		logoURI: "https://tokens.champagneswap.com/images/0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A.png"
+		logoURI: "https://tokens.champagneswap.com/images/0x4957c1c073557BFf33C01A7cA1436D0d2409d439.png"
 	},
 	{
 		name: "PancakeSwap Token",
@@ -1224,10 +1224,10 @@ var srcExtended = [
 	{
 		name: "Champagne Token",
 		symbol: "CHAM",
-		address: "0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A",
+		address: "0x4957c1c073557BFf33C01A7cA1436D0d2409d439",
 		chainId: 56,
 		decimals: 18,
-		logoURI: "https://tokens.champagneswap.com/images/0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A.png"
+		logoURI: "https://tokens.champagneswap.com/images/0x4957c1c073557BFf33C01A7cA1436D0d2409d439.png"
 	},
 	{
 		name: "PancakeSwap Token",
@@ -4561,7 +4561,7 @@ var version = {
 	minor: 16,
 	patch: 70
 };
-var logoURI = "https://tokens.champagneswap.com/images/0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A.png";
+var logoURI = "https://tokens.champagneswap.com/images/0x4957c1c073557BFf33C01A7cA1436D0d2409d439.png";
 var keywords = [
 	"champagneswap",
 	"extended"
@@ -4570,10 +4570,10 @@ var tokens = [
 	{
 		name: "ChampagneSwap Token",
 		symbol: "CHAM",
-		address: "0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A",
+		address: "0x4957c1c073557BFf33C01A7cA1436D0d2409d439",
 		chainId: 56,
 		decimals: 18,
-		logoURI: "https://tokens.champagneswap.com/images/0xcB68625F85578dB189e1Dd3F1dF61D4375b2d84A.png"
+		logoURI: "https://tokens.champagneswap.com/images/0x4957c1c073557BFf33C01A7cA1436D0d2409d439.png"
 	},
 	{
 		name: "PancakeSwap Token",
