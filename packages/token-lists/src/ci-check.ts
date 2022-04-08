@@ -1,32 +1,60 @@
-import srcDefault from "./tokens/champagneswap-default.json";
-import srcExtended from "./tokens/champagneswap-extended.json";
-import srcTop100 from "./tokens/champagneswap-top-100.json";
-import srcTop15 from "./tokens/champagneswap-top-15.json";
-import defaulList from "../lists/champagneswap-default.json";
-import extendedList from "../lists/champagneswap-extended.json";
-import top15List from "../lists/champagneswap-top-15.json";
-import top100List from "../lists/champagneswap-top-100.json";
+import srcDefault from "./tokens/champagne-default.json";
+import srcExtended from "./tokens/champagne-extended.json";
+import srcTop100 from "./tokens/champagne-top-100.json";
+import srcTop15 from "./tokens/champagne-top-15.json";
+import srcCoingecko from "./tokens/coingecko.json";
+import srcCmc from "./tokens/cmc.json";
+import srcMini from "./tokens/champagne-mini.json";
+import srcMiniExtended from "./tokens/champagne-mini-extended.json";
+import defaultList from "../lists/champagne-default.json";
+import extendedtList from "../lists/champagne-extended.json";
+import top15List from "../lists/champagne-top-15.json";
+import top100tList from "../lists/champagne-top-100.json";
+import coingeckoList from "../lists/coingecko.json";
+import cmcList from "../lists/cmc.json";
+import miniList from "../lists/champagne-mini.json";
+import miniExtendedList from "../lists/champagne-mini-extended.json";
 
 const lists = [
   {
-    name: "champagneswap-default",
+    name: "champagne-default",
     src: srcDefault,
-    actual: defaulList,
+    actual: defaultList,
   },
   {
-    name: "champagneswap-extended",
+    name: "champagne-extended",
     src: srcExtended,
-    actual: extendedList,
+    actual: extendedtList,
   },
   {
-    name: "champagneswap-top-15",
+    name: "champagne-top-15",
     src: srcTop15,
     actual: top15List,
   },
   {
-    name: "champagneswap-top-100",
+    name: "champagne-top-100",
     src: srcTop100,
-    actual: top100List,
+    actual: top100tList,
+  },
+  {
+    name: "coingeckoList",
+    src: srcCoingecko,
+    actual: coingeckoList,
+  },
+  {
+    name: "cmcList",
+    src: srcCmc,
+    actual: cmcList,
+  },
+  {
+    name: "champagne-mini",
+    src: srcMini,
+    actual: miniList,
+  },
+  {
+    name: "champagne-mini-extended",
+    src: srcMiniExtended,
+    actual: miniExtendedList,
   },
 ];
 

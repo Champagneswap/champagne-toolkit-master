@@ -1,14 +1,14 @@
 {
   "name": "ChampagneSwap Top 15",
-  "timestamp": "2022-01-18T20:02:40.550Z",
+  "timestamp": "2022-03-01T08:37:57.425Z",
   "version": {
     "major": 2,
     "minor": 17,
-    "patch": 0
+    "patch": 2
   },
-  "logoURI": "https://tokens.champagneswap.com/images/0x4957c1c073557BFf33C01A7cA1436D0d2409d439.png",
+  "logoURI": "https://champagne.finance/logo.png",
   "keywords": [
-    "champagneswap",
+    "champagne",
     "top 15"
   ],
   "tokens": [
@@ -51,14 +51,6 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3/logo.png"
-    },
-    {
-      "name": "Dopple Token",
-      "symbol": "DOP",
-      "address": "0x844FA82f1E54824655470970F7004Dd90546bB28",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x844FA82f1E54824655470970F7004Dd90546bB28/logo.png"
     },
     {
       "name": "Polkadot Token",

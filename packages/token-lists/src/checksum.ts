@@ -1,16 +1,24 @@
 import fs from "fs";
 import path from "path";
 import { getAddress } from "@ethersproject/address";
-import champagneswapDefault from "./tokens/champagneswap-default.json";
-import champagneswapExtended from "./tokens/champagneswap-extended.json";
-import champagneswapTop100 from "./tokens/champagneswap-top-100.json";
-import champagneswapTop15 from "./tokens/champagneswap-top-15.json";
+import champagneDefault from "./tokens/champagne-default.json";
+import champagneExtended from "./tokens/champagne-extended.json";
+import champagneTop100 from "./tokens/champagne-top-100.json";
+import champagneTop15 from "./tokens/champagne-top-15.json";
+import coingecko from "./tokens/coingecko.json";
+import cmc from "./tokens/cmc.json";
+import champagneMini from "./tokens/champagne-mini.json";
+import champagneMiniExtended from "./tokens/champagne-mini-extended.json";
 
 const lists = {
-  "champagneswap-default": champagneswapDefault,
-  "champagneswap-extended": champagneswapExtended,
-  "champagneswap-top-100": champagneswapTop100,
-  "champagneswap-top-15": champagneswapTop15
+  "champagne-default": champagneDefault,
+  "champagne-extended": champagneExtended,
+  "champagne-top-100": champagneTop100,
+  "champagne-top-15": champagneTop15,
+  "coingecko": coingecko,
+  "cmc": cmc,
+  "champagne-mini": champagneMini,
+  "champagne-mini-extended": champagneMiniExtended,
 };
 
 const checksumAddresses = (listName: string): void => {
